@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>FilmSales</display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserRegServlet</servlet-name>
+    <servlet-class>com.userServlet.UserRegServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserLogin</servlet-name>
+    <servlet-class>com.userServlet.UserLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdMe</servlet-name>
+    <servlet-class>com.userServlet.UpdMe</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectMe</servlet-name>
+    <servlet-class>com.userServlet.SelectMe</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddMoney</servlet-name>
+    <servlet-class>com.userServlet.AddMoney</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.adminServlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ZxSevlet</servlet-name>
+    <servlet-class>com.adminServlet.ZxSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddSevlet</servlet-name>
+    <servlet-class>com.adminServlet.AddSevlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoAdd</servlet-name>
+    <servlet-class>com.adminServlet.DoAdd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdServlet</servlet-name>
+    <servlet-class>com.adminServlet.UpdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdFilm</servlet-name>
+    <servlet-class>com.adminServlet.UpdFilm</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelFilm</servlet-name>
+    <servlet-class>com.adminServlet.SelFilm</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdState</servlet-name>
+    <servlet-class>com.adminServlet.UpdState</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoDelAll</servlet-name>
+    <servlet-class>com.adminServlet.DoDelAll</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelCheck</servlet-name>
+    <servlet-class>com.adminServlet.DelCheck</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DoDelOne</servlet-name>
+    <servlet-class>com.adminServlet.DoDelOne</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelUserServlet</servlet-name>
+    <servlet-class>com.adminServlet.SelUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddToHot</servlet-name>
+    <servlet-class>com.adminServlet.AddToHot</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TimeServlet</servlet-name>
+    <servlet-class>com.adminServlet.TimeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addToPlayList</servlet-name>
+    <servlet-class>com.adminServlet.addToPlayList</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowMoney</servlet-name>
+    <servlet-class>com.adminServlet.ShowMoney</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdAdminPwd</servlet-name>
+    <servlet-class>com.adminServlet.UpdAdminPwd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectFilmById</servlet-name>
+    <servlet-class>com.userFilmServlet.SelectFilmById</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SelectFilmByName</servlet-name>
+    <servlet-class>com.userFilmServlet.SelectFilmByName</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CurrentServlet</servlet-name>
+    <servlet-class>com.userFilmServlet.CurrentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HuoDongServlet</servlet-name>
+    <servlet-class>com.userFilmServlet.HuoDongServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyMessageServlet</servlet-name>
+    <servlet-class>com.userServlet.MyMessageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RightAjaxServlet</servlet-name>
+    <servlet-class>com.userFilmServlet.RightAjaxServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doBuyTicket</servlet-name>
+    <servlet-class>com.userFilmServlet.doBuyTicket</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FuKuan</servlet-name>
+    <servlet-class>com.userFilmServlet.FuKuan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>doFuKuan</servlet-name>
+    <servlet-class>com.userFilmServlet.doFuKuan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelTicket</servlet-name>
+    <servlet-class>com.userFilmServlet.DelTicket</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>com.userFilmServlet.CommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FutureServlet</servlet-name>
+    <servlet-class>com.userFilmServlet.FutureServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>GuanZhuServlet</servlet-name>
+    <servlet-class>com.userFilmServlet.GuanZhuServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuickBuyServlet</servlet-name>
+    <servlet-class>com.userFilmServlet.QuickBuyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShowFilmByDate</servlet-name>
+    <servlet-class>com.userFilmServlet.ShowFilmByDate</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChuLi</servlet-name>
+    <servlet-class>com.userServlet.ChuLi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PingJia</servlet-name>
+    <servlet-class>com.userServlet.PingJia</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdMiMa</servlet-name>
+    <servlet-class>com.userServlet.UpdMiMa</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserFenYe</servlet-name>
+    <servlet-class>com.userServlet.UserFenYe</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ZhuXiao</servlet-name>
+    <servlet-class>com.userServlet.ZhuXiao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserRegServlet</servlet-name>
+    <url-pattern>/UserRegServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddMoney</servlet-name>
+    <url-pattern>/AddMoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZxSevlet</servlet-name>
+    <url-pattern>/ZxSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddSevlet</servlet-name>
+    <url-pattern>/AddSevlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoAdd</servlet-name>
+    <url-pattern>/DoAdd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdServlet</servlet-name>
+    <url-pattern>/UpdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdFilm</servlet-name>
+    <url-pattern>/UpdFilm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelFilm</servlet-name>
+    <url-pattern>/SelFilm</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdState</servlet-name>
+    <url-pattern>/UpdState</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoDelAll</servlet-name>
+    <url-pattern>/DoDelAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelCheck</servlet-name>
+    <url-pattern>/DelCheck</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DoDelOne</servlet-name>
+    <url-pattern>/DoDelOne</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelUserServlet</servlet-name>
+    <url-pattern>/SelUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddToHot</servlet-name>
+    <url-pattern>/AddToHot</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TimeServlet</servlet-name>
+    <url-pattern>/TimeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addToPlayList</servlet-name>
+    <url-pattern>/addToPlayList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowMoney</servlet-name>
+    <url-pattern>/ShowMoney</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdAdminPwd</servlet-name>
+    <url-pattern>/UpdAdminPwd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserLogin</servlet-name>
+    <url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdMe</servlet-name>
+    <url-pattern>/UpdMe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectMe</servlet-name>
+    <url-pattern>/SelectMe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectFilmById</servlet-name>
+    <url-pattern>/SelectFilmById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SelectFilmByName</servlet-name>
+    <url-pattern>/SelectFilmByName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CurrentServlet</servlet-name>
+    <url-pattern>/CurrentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HuoDongServlet</servlet-name>
+    <url-pattern>/HuoDongServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyMessageServlet</servlet-name>
+    <url-pattern>/MyMessageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RightAjaxServlet</servlet-name>
+    <url-pattern>/RightAjaxServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doBuyTicket</servlet-name>
+    <url-pattern>/doBuyTicket</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FuKuan</servlet-name>
+    <url-pattern>/FuKuan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>doFuKuan</servlet-name>
+    <url-pattern>/doFuKuan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelTicket</servlet-name>
+    <url-pattern>/DelTicket</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/CommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FutureServlet</servlet-name>
+    <url-pattern>/FutureServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GuanZhuServlet</servlet-name>
+    <url-pattern>/GuanZhuServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuickBuyServlet</servlet-name>
+    <url-pattern>/QuickBuyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowFilmByDate</servlet-name>
+    <url-pattern>/ShowFilmByDate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChuLi</servlet-name>
+    <url-pattern>/ChuLi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PingJia</servlet-name>
+    <url-pattern>/PingJia</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdMiMa</servlet-name>
+    <url-pattern>/UpdMiMa</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserFenYe</servlet-name>
+    <url-pattern>/UserFenYe</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZhuXiao</servlet-name>
+    <url-pattern>/ZhuXiao</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>User/MyHome.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

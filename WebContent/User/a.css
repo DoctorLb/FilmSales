@@ -1,0 +1,15 @@
+img{
+	border:0px;
+}
+td{
+	font-size:14px;
+}
+a{
+	color:green;
+	text-decoration: none;
+}
+a:hover{
+	color:red;
+	text-decoration:underline;
+}
+
